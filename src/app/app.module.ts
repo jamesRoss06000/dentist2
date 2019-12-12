@@ -10,6 +10,7 @@ import { ContactComponent } from './options/contact/contact.component';
 import { HoursComponent } from './options/hours/hours.component';
 import { ServicesComponent } from './options/services/services.component';
 import { MapComponent } from './options/map/map.component';
+import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MapComponent } from './options/map/map.component';
     ContactComponent,
     HoursComponent,
     ServicesComponent,
-    MapComponent
+    MapComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule

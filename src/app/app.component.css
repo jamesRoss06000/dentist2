@@ -2,11 +2,3 @@ html, body {
   margin: 0px;
   padding: 0px;
 }
-
-.body {
-  height: 95vh;
-  width: 100vw;
-  background-image: url("../assets/dentist-photo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}

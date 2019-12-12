@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.tooth img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.tooth {
+  width: 250px;
+  align-content: center;
+  text-align: center;
+  background: white;
+  opacity: 0.9;
+}
