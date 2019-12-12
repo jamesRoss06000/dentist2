@@ -1,0 +1,11 @@
+.about-box {
+  padding: 10px;
+  background-color: whitesmoke;
+  color: black;
+  opacity: 0.9;
+}
+
+img {
+  height: 250px;
+  float: right;
+}
