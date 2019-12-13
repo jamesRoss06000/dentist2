@@ -6,10 +6,6 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { OptionsComponent } from './options/options.component';
-import { ContactComponent } from './options/contact/contact.component';
-import { HoursComponent } from './options/hours/hours.component';
-import { ServicesComponent } from './options/services/services.component';
-import { MapComponent } from './options/map/map.component';
 import { PhotosComponent } from './photos/photos.component';
 
 @NgModule({
@@ -19,11 +15,7 @@ import { PhotosComponent } from './photos/photos.component';
     FooterComponent,
     AboutComponent,
     OptionsComponent,
-    ContactComponent,
-    HoursComponent,
-    ServicesComponent,
-    MapComponent,
-    PhotosComponent
+    PhotosComponent,
   ],
   imports: [
     BrowserModule

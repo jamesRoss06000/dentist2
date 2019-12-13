@@ -2,10 +2,11 @@
 .tooth img {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
 }
 
 .tooth {
+  padding-top: 10px;
   width: 250px;
   align-content: center;
   text-align: center;
