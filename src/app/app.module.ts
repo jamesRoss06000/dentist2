@@ -8,13 +8,11 @@ const part3 = '2wK3CStN-1w';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutComponent } from './about/about.component';
-const part2 = 'eH9p758QxIh';
 import { OptionsComponent } from './options/options.component';
 import { PhotosComponent } from './photos/photos.component';
 import { MapComponent } from './options/map/map.component';
 import { AgmCoreModule } from '@agm/core';
-
+const part2 = 'eH9p758QxIh';
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }
@@ -24,7 +22,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    AboutComponent,
     OptionsComponent,
     PhotosComponent,
     MapComponent
