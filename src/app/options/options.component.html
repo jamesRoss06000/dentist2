@@ -1,103 +1,136 @@
 <div class="col-12 d-flex options">
 
   <div class="tooth">
+    <img src="../../assets/implant.png" alt="implant"
+      (click)='about()' style='cursor: pointer;'>
+    <h5 (click)='about()' style='cursor: pointer;'>{{ "options.introduction" | translate }}</h5>
+  </div>
+
+  <div class="tooth">
     <img src="../../assets/tooth-brush.png" alt="tooth-brush"
       (click)='services()' style='cursor: pointer;'>
-    <h5 (click)='services()' style='cursor: pointer;'>Services</h5>
+    <h5 (click)='services()' style='cursor: pointer;'>{{ "options.services" | translate }}</h5>
 
   </div>
 
   <div class="tooth">
     <img src="../../assets/dental-care.png" alt="dental-care"
-    (click)='contact()' style='cursor: pointer;'>
-    <h5 (click)='contact()' style='cursor: pointer;'>Contact</h5>
-  </div>
-
-  <div class="tooth">
-    <img src="../../assets/implant.png" alt="implant"
-    (click)='gallery()' style='cursor: pointer;'>
-    <h5 (click)='gallery()' style='cursor: pointer;'>Gallery</h5>
+      (click)='contact()' style='cursor: pointer;'>
+    <h5 (click)='contact()' style='cursor: pointer;'>{{ "options.contact" | translate }}</h5>
   </div>
 
   <div class="tooth">
     <img src="../../assets/toothpaste.png" alt="toothpaste"
-    (click)='map()' style='cursor: pointer;'>
-    <h5 (click)='map()' style='cursor: pointer;'>Map</h5>
+      (click)='map()' style='cursor: pointer;'>
+    <h5 (click)='map()' style='cursor: pointer;'>{{ "options.map" | translate }}</h5>
+  </div>
+
+  <!-- About Data -->
+  <div class="backdrop" *ngIf="aboutData"></div>
+  <div class="alert-box" *ngIf="aboutData">
+    <img class='photoIvan'
+      src="https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/l2rd5xakeo0jiu4dywyi.jpg"
+      alt="Chirurgien-dentiste">
+    <h5>{{ 'presentation.header' | translate}}</h5>
+    <p>{{ 'presentation.p1' | translate}}</p>
+    <p>{{ 'presentation.p2' | translate}}</p>
+    <p>{{ 'presentation.p3' | translate}}</p>
+    <p>{{ 'presentation.p4' | translate}}</p>
+    <p>{{ 'presentation.p5' | translate}}</p>
+    <p>{{ 'presentation.p5' | translate}}</p> <div class="alert-box-actions">
+      <button class='btn btn-secondary'
+        style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+      <button class='btn btn-primary' style='width: 15%;' (click)='about()'>Close</button>
+    </div>
   </div>
 
 </div>
 <!-- Services Data -->
 <div class="backdrop" *ngIf="serviceText"></div>
 <div class="alert-box" *ngIf="serviceText">
-  <!-- <h5>{{ 'services.header1' | translate }}</h5>
-  <p>{{ 'services.p1' | translate }}</p>
-  <p>{{ 'services.p2' | translate }}</p>
-  <p>{{ 'services.p3' | translate }}</p>
-  <p>{{ 'services.p4' | translate }}</p>
-  <hr>
-  <h5>{{ 'services.header2' | translate }}</h5>
-  <p>{{ 'services.p5' | translate }}</p>
-  <p>{{ 'services.p6' | translate }}</p>
-  <p>{{ 'services.p7' | translate }}</p>
-  <p>{{ 'services.p8' | translate }}</p>
-  <hr>
-  <h5>{{ 'services.header3' | translate }}</h5>
-  <p>{{ 'services.p9' | translate }}</p> -->
-  <p>Uncomment above when done the ngx translate</p>
+
+  <div class="d-flex">
+    <div class="width50">
+      <h5>{{ 'services.header1' | translate }}</h5>
+      <p>{{ 'services.p1' | translate }}</p>
+      <p>{{ 'services.p2' | translate }}</p>
+      <p>{{ 'services.p3' | translate }}</p>
+      <p>{{ 'services.p4' | translate }}</p>
+    </div>
+
+    <div class="width50">
+      <h5>{{ 'services.header2' | translate }}</h5>
+      <p>{{ 'services.p5' | translate }}</p>
+      <p>{{ 'services.p6' | translate }}</p>
+      <p>{{ 'services.p7' | translate }}</p>
+      <p>{{ 'services.p8' | translate }}</p>
+
+      <h5>{{ 'services.header3' | translate }}</h5>
+      <p>{{ 'services.p9' | translate }}</p>
+    </div>
+  </div>
+
   <div class="alert-box-actions">
-    <button class='btn btn-primary' (click)='services()'>Close</button>
+    <button class='btn btn-secondary'
+      style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+    <button class='btn btn-primary' style='width: 15%;' (click)='services()'>Close</button>
   </div>
 </div>
 
 <!-- Contact Data -->
 <div class="backdrop" *ngIf="contactData"></div>
 <div class="alert-box" *ngIf="contactData">
-  <!-- <button class='btn btn-secondary' (click)='gotoDoctolib()' style='width:
-  100%;'>{{ 'contact.button' | translate }}</button>
-<br>
-<br>
-<h5>{{ 'contact.header1' | translate }}</h5>
-<p>{{ 'contact.p1' | translate }}</p>
-<p>{{ 'contact.p2' | translate }}</p>
 
-<hr>
-<h5>{{ 'contact.header2' | translate }}</h5>
-<p>{{ 'contact.p3' | translate }}</p>
-<p>{{ 'contact.p4' | translate }}</p>
-<hr>
-<h5>{{ 'contact.header3' | translate }}</h5> -->
-  <p>Uncomment above when done the ngx translate</p>
-  <div class="alert-box-actions">
-    <button class='btn btn-primary' (click)='contact()'>Close</button>
+  <div class="d-flex">
+    <div class="width50">
+      <h5>{{ 'contact.header1' | translate }}</h5>
+      <p>{{ 'contact.p1' | translate }}</p>
+      <h5>{{ 'contact.header7' | translate }}</h5>
+      <p>{{ 'contact.p11' | translate }}</p>
+      <p>{{ 'contact.p12' | translate }}</p>
+    </div>
+    <div class="width50">
+      <h5>{{ 'contact.header2' | translate }}</h5>
+      <p>{{ 'contact.p3' | translate }}</p>
+      <p>{{ 'contact.p4' | translate }}</p>
+      <h5>{{ 'contact.header8' | translate }}</h5>
+      <p>{{ 'contact.p13' | translate }}</p>
+    </div>
   </div>
-</div>
 
-<!-- Gallery Data -->
-<div class="backdrop" *ngIf="galleryData"></div>
-<div class="alert-box" *ngIf="galleryData">
-  <p>Uncomment above when done the ngx translate</p>
   <div class="alert-box-actions">
-    <button class='btn btn-primary' (click)='gallery()'>Close</button>
+    <button class='btn btn-secondary'
+      style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+    <button class='btn btn-primary' style='width: 15%;' (click)='contact()'>Close</button>
   </div>
 </div>
 
 <!-- Map Data -->
 <div class="backdrop" *ngIf="mapData"></div>
 <div class="alert-box" *ngIf="mapData">
+  <h5>{{ 'contact.header3' | translate }}</h5>
+  <app-map></app-map>
+  <br>
+  <div class="d-flex">
+    <div class='width50'>
+      <h5>{{ 'contact.header4' | translate }}</h5>
+      <p>{{ 'contact.p5' | translate }}</p>
+      <p>{{ 'contact.p6' | translate }}</p>
+      <p>{{ 'contact.p7' | translate }}</p>
+    </div>
 
-  <!-- <app-map></app-map>
-<br>
-<h5>{{ 'contact.header4' | translate }}</h5>
-<p>{{ 'contact.p5' | translate }}</p>
-<p>{{ 'contact.p6' | translate }}</p>
-<p>{{ 'contact.p7' | translate }}</p>
-<h5>{{ 'contact.header5' | translate }}</h5>
-<p>{{ 'contact.p8' | translate }}</p>
-<h5>{{ 'contact.header6' | translate }}</h5>
-<p>{{ 'contact.p9' | translate }}</p>
-<p>{{ 'contact.p10' | translate }}</p> -->
-  <p>Uncomment above when done the ngx translate</p>
+    <div class='width50'>
+      <h5>{{ 'contact.header5' | translate }}</h5>
+      <p>{{ 'contact.p8' | translate }}</p>
+      <h5>{{ 'contact.header6' | translate }}</h5>
+      <p>{{ 'contact.p9' | translate }}</p>
+      <p>{{ 'contact.p10' | translate }}</p>
+    </div>
+  </div>
+
   <div class="alert-box-actions">
-    <button class='btn btn-primary' (click)='map()'>Close</button>
+    <button class='btn btn-secondary'
+      style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+    <button class='btn btn-primary' style='width: 15%;' (click)='map()'>Close</button>
   </div>
 </div>

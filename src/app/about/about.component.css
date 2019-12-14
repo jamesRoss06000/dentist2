@@ -1,15 +1,13 @@
 .about-box {
-  /* padding: 10px; */
   background-color: rgb(70, 70, 70);
   color: white;
   opacity: 0.9;
   padding: 10px;
   border-radius: 10px;
-  height: 80vh;
 }
 
 img {
   border-radius: 10px;
-  height: 250px;
+  height: 25vh;
   float: right;
 }

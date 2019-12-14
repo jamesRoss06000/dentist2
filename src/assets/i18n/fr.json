@@ -1,0 +1,69 @@
+{
+  "header": {
+    "title": "Cabinet Dentaire de Dr Laura IVAN"
+  },
+
+  "options": {
+    "introduction": "Voici le Dr IVAN",
+    "services": "Les services",
+    "contact" : "Contact",
+    "map" : "Localisation"
+},
+
+  "presentation": {
+    "header": " Votre chirurgien dentiste...",
+    "p1": "Le docteur Laura Ivan vous reçoit dans son cabinet au 4 rue Chateauneuf à Nice du lundi au vendredi.",
+    "p2": "Au cours des six dernières années, le docteur Ivan a obtenu les diplômes prestigieux de Warwick University et de l'Université d'Oxford. Elle a également obtenu un diplôme d'esthétique du visage à Londres.",
+    "p3": "Notre philosophie est d'offrir des soins dentaires sans douleur, dans une atmosphère détendue et plaisante pour nos patients.",
+    "p4": "Le bien-être de nos patients est au coeur de nos préoccupations, nous nous assurons de leur donner le meilleur service possible.",
+    "p5": "Nous utilisons les technologies les plus avancées en matière de soins dentaires : un fauteuil de dernière génération avec option siège massant, écran numérique, et encore plus de fonctions qui offrent un confort optimal pour nos patients.",
+    "p6": "Le docteur Ivan assure des consultations en esthétique dentaire (blanchiment, facettes dentaires, couronnes en céramique, obturations composites) et du visage (botox, acide hyaluronique, etc.).",
+    "button": "Prenez rendez-vous sur Doctolib.fr"
+  },
+
+  "services": {
+    "header1": "Expertises, actes et symptômes",
+    "p1": "Blanchiment des dents",
+    "p2": "Couronne dentaire",
+    "p3": "Détartrage",
+    "p4": "Appareil dentaire",
+    "header2": "Tarifs et remboursements",
+    "p5": "Consultation - 23 €",
+    "p6": "Conventionné",
+    "p7": "Carte Vitale acceptée",
+    "p8": "Tiers payant : Sécurité sociale",
+    "header3": "Moyens de paiement",
+    "p9": "Chèques, espèces et cartes bancaires",
+    "button": "Prenez rendez-vous sur Doctolib.fr"
+  },
+
+  "contact": {
+    "button": "Prenez rendez-vous sur Doctolib.fr",
+    "header1": "Heures d'ouverture",
+    "p1": "Lundi - Vendredi 9h00-13h00, 14h00 - 18h00",
+    "p2": "4 Rue Châteauneuf, 06000 Nice",
+    "header2": "Contact/Heures du secrétariat",
+    "p3": "Tel: 04 93 96 91 95",
+    "p4": "Lundi - Vendredi 9h00-13h00, 14h00 - 18h00",
+    "header3": "Carte et informations d'accès",
+    "header4": "Moyens de transport",
+    "p5": "Bus - Thiers / Gambetta (lignes 12, 17, 23, 71, 75 et 07)",
+    "p6": "Bus - Tzaréwitch / Gambetta (ligne 75)",
+    "p7": "Bus - Estienne d'Orves (ligne 17)",
+    "header5": "Parking public",
+    "p8": "3 Rue Cluvier, Nice",
+    "header6": "Informations pratiques",
+    "p9": "1er étage avec ascenseur",
+    "p10": "Parking payant",
+    "header7": "Consultations sans rendez-vous",
+    "p11": "Jeudi: 09h00 - 13h00, 14h00 - 18h00",
+    "p12": "Vendredi: 09h00 - 13h00, 14h00 - 18h00",
+    "header8": "Contact d'urgence",
+    "p13": "En cas d’urgence, contactez le 15 (Samu)"
+  },
+
+  "footer": {
+    "website": "Site créé par ",
+    "icons": "Icônes faites par "
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "header": {
+    "title": "Dental Practice of Dr Laura IVAN"
+  },
+
+  "options": {
+      "introduction": "About Dr IVAN",
+      "services": "Services",
+      "contact" : "Contact",
+      "map" : "Location"
+  },
+
+  "presentation": {
+    "header": " Your dental surgeon...",
+    "p1": "Dr. Laura Ivan welcomes you to her office at 4 rue Chateauneuf in Nice from Monday to Friday.",
+    "p2": "Over the past six years, Dr. Ivan has obtained prestigious degrees from Warwick University and Oxford University. She also obtained a diploma in facial aesthetics in London.",
+    "p3": "Our philosophy is to offer painless dental care in a relaxed and pleasant atmosphere for our patients.",
+    "p4": "The well-being of our patients is at the heart of our concerns, we make sure to give them the best possible service.",
+    "p5": "We use the most advanced dental care technologies: a state-of-the-art chair with optional massage seat, digital screen, and even more functions that offer optimal comfort for our patients.",
+    "p6": "Dr. Ivan provides aesthetic dental consultations (bleaching, dental veneers, ceramic crowns, composite fillings) and facial consultations (botox, hyaluronic acid, etc.).",
+    "button": "Make an appointment on Doctolib.fr"
+  },
+
+  "services": {
+    "header1": "Expertise, acts and symptoms",
+    "p1": "Teeth whitening",
+    "p2": "Dental crown",
+    "p3": "Descaling",
+    "p4": "Dental apparatus",
+    "header2": "Rates and refunds",
+    "p5": "Consultation - 23 €",
+    "p6": "Contracted",
+    "p7": "Carte Vitale accepted",
+    "p8": "Third party paying: Social Security",
+    "header3": "Methods of payment",
+    "p9": "Checks, cash and credit cards",
+    "button": "Make an appointment on Doctolib.fr"
+  },
+
+  "contact": {
+    "button": "Make an appointment on Doctolib.fr",
+    "header1": "Opening hours",
+    "p1": "Monday - Friday 9am - 1pm, 2pm - 6pm",
+    "p2": "4 Rue Châteauneuf, 06000 Nice",
+    "header2": "Contact/Hours of the secretary",
+    "p3": "Tel: 04 93 96 91 95",
+    "p4": "Monday - Friday 9am - 1pm, 3pm - 6:30pm",
+    "header3": "Map and access information",
+    "header4": "Common transport",
+    "p5": "Bus - Thiers / Gambetta (lignes 12, 17, 23, 71, 75 et 07)",
+    "p6": "Bus - Tzaréwitch / Gambetta (ligne 75)",
+    "p7": "Bus - Estienne d'Orves (ligne 17)",
+    "header5": "Public parking",
+    "p8": "3 Rue Cluvier, Nice",
+    "header6": "Additional Information",
+    "p9": "1st floor with lift",
+    "p10": "Parking is charged",
+    "header7": "Consultations without appointment",
+    "p11": "Thursday: 09h00 - 13h00, 14h00 - 18h00",
+    "p12": "Friday: 09h00 - 13h00, 14h00 - 18h00",
+    "header8": "Emergency contact",
+    "p13": "In case of emergency, contact the 15 (Samu)"
+  },
+
+  "footer": {
+    "website": "Website created by ",
+    "icons": "Icons made by "
+  }
+}

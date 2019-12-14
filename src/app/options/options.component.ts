@@ -9,7 +9,7 @@ export class OptionsComponent implements OnInit {
 
   serviceText: boolean = false;
   contactData: boolean = false;
-  galleryData: boolean = false;
+  aboutData: boolean = false;
   mapData: boolean = false;
   
   constructor() { }
@@ -25,8 +25,8 @@ export class OptionsComponent implements OnInit {
     this.contactData = !this.contactData;
   }
 
-  gallery() {
-    this.galleryData = !this.galleryData;
+  about() {
+    this.aboutData = !this.aboutData;
   }
 
   map() {

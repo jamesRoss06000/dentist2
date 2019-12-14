@@ -1,0 +1,70 @@
+{
+
+  "header": {
+    "title": "Practica Dentară a Dr. Laura IVAN"
+  },
+
+  "options": {
+    "introduction": "Despre Dr. IVAN",
+    "services": "Servicii",
+    "contact" : "A lua legatura",
+    "map" : "Locație"
+},
+
+  "presentation": {
+    "header": "Prezentarea medicului Laura Ivan",
+    "p1": "Dr. Laura Ivan vă întâmpină de luni până vineri la biroul ei de la 4 rue Chateauneuf din Nisa.",
+    "p2": "În ultimii șase ani, Dr. Ivan a obținut diplome prestigioase de la Universitatea Warwick și Universitatea Oxford. De asemenea, a obținut o diplomă de estetică facială la Londra.",
+    "p3": "Filozofia noastră este să oferim îngrijiri dentare nedureroase într-o atmosferă relaxată și plăcută pacienților noștri.",
+    "p4": "Starea de bine a pacienților noștri se află în centrul preocupărilor noastre, ne asigurăm că le oferim cel mai bun serviciu posibil.",
+    "p5": "Folosim cele mai avansate tehnologii de îngrijire dentară: un scaun de ultimă generație, cu scaun de masaj opțional, ecran digital și chiar mai multe funcții care oferă un confort optim pentru pacienții noștri.",
+    "p6": "Dr. Ivan oferă consultări stomatologice estetice (albire, furnire dentară, coroane ceramice, umpluturi compozite) și consultări faciale (botox, acid hialuronic, etc.).",
+    "button": "Faceți o programare pe Doctolib.fr"
+  },
+
+  "services": {
+    "header1": "Expertiză, acte și simptome",
+    "p1": "Albirea dintilor",
+    "p2": "Coroana dentară",
+    "p3": "Decalcifiere",
+    "p4": "Aparate dentare",
+    "header2": "Tarife și rambursări",
+    "p5": "Consultare - 23 €",
+    "p6": "Contractat",
+    "p7": "Carte Vitale admis",
+    "p8": "Terță parte care plătește: securitate socială",
+    "header3": "Modalități de plată",
+    "p9": "Cecuri, numerar și cărți de credit",
+    "button": "Faceți o programare pe Doctolib.fr"
+  },
+
+  "contact": {
+    "button": "Faceți o programare pe Doctolib.fr",
+    "header1": "Orele de deschidere",
+    "p1": "Luni - vineri între 9:00 - 13:00, 14:00 - 18:00",
+    "p2": "4 Rue Châteauneuf, 06000 Nice",
+    "header2": "Contact / Orele secretarului",
+    "p3": "Tel: 04 93 96 91 95",
+    "p4": "Luni - vineri între 9:00 - 13:00, 15:00 - 18:30",
+    "header3": "Hartă și informații de acces",
+    "header4": "Transport comun",
+    "p5": "Autobuz - Thiers / Gambetta (lignes 12, 17, 23, 71, 75 et 07)",
+    "p6": "Autobuz - Tzaréwitch / Gambetta (ligne 75)",
+    "p7": "Autobuz - Estienne d'Orves (ligne 17)",
+    "header5": "Parcare publică",
+    "p8": "3 Rue Cluvier, Nice",
+    "header6": "Informatii suplimentare",
+    "p9": "Etajul 1 cu lift",
+    "p10": "Parcarea este taxată",
+    "header7": "Consultări fără programare",
+    "p11": "Joi: 09h00 - 13h00, 14h00 - 18h00",
+    "p12": "Vineri: 09h00 - 13h00, 14h00 - 18h00",
+    "header8": "Contact de urgenta",
+    "p13": "În caz de urgență, contactați 15 (Samu)"
+  },
+
+  "footer": {
+    "website": "Site web creat de ",
+    "icons": "Icoane realizate de"
+  }
+}
