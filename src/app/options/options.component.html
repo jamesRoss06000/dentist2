@@ -1,28 +1,24 @@
-<div class="col-12 d-flex options">
+<div class="d-flex options">
 
-  <div class="tooth">
-    <img src="../../assets/implant.png" alt="implant"
-      (click)='about()' style='cursor: pointer;'>
-    <h5 (click)='about()' style='cursor: pointer;'>{{ "options.introduction" | translate }}</h5>
+  <div class="tooth" (click)='about()'>
+    <img src="../../assets/implant.png" alt="implant">
+    <h5>{{ "options.introduction" | translate }}</h5>
   </div>
 
-  <div class="tooth">
-    <img src="../../assets/tooth-brush.png" alt="tooth-brush"
-      (click)='services()' style='cursor: pointer;'>
-    <h5 (click)='services()' style='cursor: pointer;'>{{ "options.services" | translate }}</h5>
+  <div class="tooth" (click)='services()'>
+    <img src="../../assets/tooth-brush.png" alt="tooth-brush">
+    <h5 >{{ "options.services" | translate }}</h5>
 
   </div>
 
-  <div class="tooth">
-    <img src="../../assets/dental-care.png" alt="dental-care"
-      (click)='contact()' style='cursor: pointer;'>
-    <h5 (click)='contact()' style='cursor: pointer;'>{{ "options.contact" | translate }}</h5>
+  <div class="tooth" (click)='contact()'>
+    <img src="../../assets/dental-care.png" alt="dental-care">
+    <h5>{{ "options.contact" | translate }}</h5>
   </div>
 
-  <div class="tooth">
-    <img src="../../assets/toothpaste.png" alt="toothpaste"
-      (click)='map()' style='cursor: pointer;'>
-    <h5 (click)='map()' style='cursor: pointer;'>{{ "options.map" | translate }}</h5>
+  <div class="tooth" (click)='map()'>
+    <img src="../../assets/toothpaste.png" alt="toothpaste">
+    <h5>{{ "options.map" | translate }}</h5>
   </div>
 
   <!-- About Data -->
@@ -39,7 +35,9 @@
     <p>{{ 'presentation.p5' | translate}}</p>
     <p>{{ 'presentation.p5' | translate}}</p> <div class="alert-box-actions">
       <button class='btn btn-secondary'
-        style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+        style='width: 85%;'
+        (click)="gotoDoctolib()">
+        {{ 'contact.button' | translate }}</button>
       <button class='btn btn-primary' style='width: 15%;' (click)='about()'>Close</button>
     </div>
   </div>
@@ -72,7 +70,9 @@
 
   <div class="alert-box-actions">
     <button class='btn btn-secondary'
-      style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+      style='width: 85%;'
+      (click)="gotoDoctolib()">
+      {{ 'contact.button' | translate }}</button>
     <button class='btn btn-primary' style='width: 15%;' (click)='services()'>Close</button>
   </div>
 </div>
@@ -100,7 +100,9 @@
 
   <div class="alert-box-actions">
     <button class='btn btn-secondary'
-      style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+      style='width: 85%;'
+      (click)="gotoDoctolib()">
+      {{ 'contact.button' | translate }}</button>
     <button class='btn btn-primary' style='width: 15%;' (click)='contact()'>Close</button>
   </div>
 </div>
@@ -130,7 +132,9 @@
 
   <div class="alert-box-actions">
     <button class='btn btn-secondary'
-      style='width: 85%;'>{{ 'contact.button' | translate }}</button>
+      style='width: 85%;'
+      (click)="gotoDoctolib()">
+      {{ 'contact.button' | translate }}</button>
     <button class='btn btn-primary' style='width: 15%;' (click)='map()'>Close</button>
   </div>
 </div>

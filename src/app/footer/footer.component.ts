@@ -12,4 +12,13 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
   }
 
+  gotoJamesRoss(): void {
+    window.open("https://www.jamesross.tech", "_blank");
+  }
+
+  gotoIcons(): void {
+    window.open("https://www.flaticon.com/authors/icongeek26", "_blank");
+  }
+
+
 }

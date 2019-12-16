@@ -1,11 +1,43 @@
-.spacer {
-  flex-grow: 1;
+.header {
+  padding: 15px;
+  justify-content: space-between;
 }
 
 h1 {
-  color: #6B6E70;
+  color: #3F63D5;
+  font-family: Arial Narrow, sans-serif;
+  font-variant: small-caps;
+  padding-top: 30px;
+}
+
+.languages {
+  padding-top: 40px;
 }
 
 .languages img {
   margin: 0px 3px;
+}
+
+.dentistIcon {
+  width: 100px;
+}
+
+.clickFlag {
+  cursor: pointer;
+  width: 40px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .flex-item {
+    order: -1 !important;
+  }
+
+  .languages {
+    padding-top: 30px;
+    order: 2;
+  }
 }

@@ -1,12 +1,19 @@
 <div class="container-fluid">
-  <div class="row d-flex p-3">
-      <span class='spacer'></span>
-      <h1>{{ "header.title" | translate}}</h1>      
-      <span class='spacer'></span>
-      <div class="languages">
-        <img src="../../assets/french-flag.png" alt="francais" (click)="useLanguage('fr')">
-        <img src="../../assets/british-flag.png" alt="english" (click)="useLanguage('en')">
-        <img src="../../assets/romanian-flag.png" alt="romanian" (click)="useLanguage('ro')">
-      </div>
+  <div class="row d-flex header">
+
+    <img class='dentistIcon' src="../../assets/dentist.png" alt="">
+
+    <h1>{{ "header.title" | translate}}</h1>
+
+    <div class="languages flex-item">
+      <img class="clickFlag" src="../../assets/french-flag.png" alt="francais"
+        (click)="useLanguage('fr')">
+      <img class="clickFlag" src="../../assets/british-flag.png" alt="english"
+        (click)="useLanguage('en')">
+      <img class="clickFlag" src="../../assets/romanian-flag.png"
+        alt="romanian"
+        (click)="useLanguage('ro')">
+    </div>
+  
   </div>
 </div>

@@ -1,6 +1,25 @@
 .footer {
   position: fixed;
   bottom: 0;
+  right: 38vw;
   padding: 20px;
-  text-align: center;
+  color: rgb(100, 100, 100);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(100, 100, 100);
+}
+
+@media (max-width: 1100px){
+  .footer {
+    right: 28vw;
+  }
+}
+
+@media (max-width: 800px){
+  .footer {
+    right: 22vw;
+  }
 }
