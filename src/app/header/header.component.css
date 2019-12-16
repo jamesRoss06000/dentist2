@@ -29,15 +29,52 @@ h1 {
 
 @media (max-width: 800px) {
   h1 {
+    font-size: 26px;
+  }
+
+  .languages {
+    padding-top: 30px;
+    order: 2;
+  }
+}
+
+@media (max-width: 550px){
+  h1 {
     font-size: 22px;
+    padding-top: 10px;
   }
 
   .flex-item {
     order: -1 !important;
   }
 
+  .dentistIcon {
+  width: 50px;
+  }
+
   .languages {
-    padding-top: 30px;
-    order: 2;
+    padding-top: 0px !important;
+  }
+
+  .header {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 400px){
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 362px){
+  h1 {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 350px){
+  h1 {
+    font-size: 17px;
   }
 }

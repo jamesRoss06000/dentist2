@@ -35,10 +35,10 @@
     <p>{{ 'presentation.p5' | translate}}</p>
     <p>{{ 'presentation.p5' | translate}}</p> <div class="alert-box-actions">
       <button class='btn btn-secondary'
-        style='width: 85%;'
+        style='width: 80%;'
         (click)="gotoDoctolib()">
         {{ 'contact.button' | translate }}</button>
-      <button class='btn btn-primary' style='width: 15%;' (click)='about()'>Close</button>
+      <button class='btn btn-primary' style='width: 20%;' (click)='about()'>Close</button>
     </div>
   </div>
 
@@ -47,7 +47,7 @@
 <div class="backdrop" *ngIf="serviceText"></div>
 <div class="alert-box" *ngIf="serviceText">
 
-  <div class="d-flex">
+  <div class="d-flex responsiveColumn">
     <div class="width50">
       <h5>{{ 'services.header1' | translate }}</h5>
       <p>{{ 'services.p1' | translate }}</p>
@@ -70,10 +70,10 @@
 
   <div class="alert-box-actions">
     <button class='btn btn-secondary'
-      style='width: 85%;'
+      style='width: 80%;'
       (click)="gotoDoctolib()">
       {{ 'contact.button' | translate }}</button>
-    <button class='btn btn-primary' style='width: 15%;' (click)='services()'>Close</button>
+    <button class='btn btn-primary' style='width: 20%;' (click)='services()'>Close</button>
   </div>
 </div>
 
@@ -81,7 +81,7 @@
 <div class="backdrop" *ngIf="contactData"></div>
 <div class="alert-box" *ngIf="contactData">
 
-  <div class="d-flex">
+  <div class="d-flex responsiveColumn">
     <div class="width50">
       <h5>{{ 'contact.header1' | translate }}</h5>
       <p>{{ 'contact.p1' | translate }}</p>
@@ -100,10 +100,10 @@
 
   <div class="alert-box-actions">
     <button class='btn btn-secondary'
-      style='width: 85%;'
+      style='width: 80%;'
       (click)="gotoDoctolib()">
       {{ 'contact.button' | translate }}</button>
-    <button class='btn btn-primary' style='width: 15%;' (click)='contact()'>Close</button>
+    <button class='btn btn-primary' style='width: 20%;' (click)='contact()'>Close</button>
   </div>
 </div>
 
@@ -113,7 +113,7 @@
   <h5>{{ 'contact.header3' | translate }}</h5>
   <app-map></app-map>
   <br>
-  <div class="d-flex">
+  <div class="d-flex responsiveColumn">
     <div class='width50'>
       <h5>{{ 'contact.header4' | translate }}</h5>
       <p>{{ 'contact.p5' | translate }}</p>
@@ -132,9 +132,9 @@
 
   <div class="alert-box-actions">
     <button class='btn btn-secondary'
-      style='width: 85%;'
+      style='width: 80%;'
       (click)="gotoDoctolib()">
       {{ 'contact.button' | translate }}</button>
-    <button class='btn btn-primary' style='width: 15%;' (click)='map()'>Close</button>
+    <button class='btn btn-primary' style='width: 20%;' (click)='map()'>Close</button>
   </div>
 </div>

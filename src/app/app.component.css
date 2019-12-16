@@ -2,3 +2,10 @@ html, body {
   margin: 0px;
   padding: 0px;
 }
+
+@media (max-width: 550px){
+  .body {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+}

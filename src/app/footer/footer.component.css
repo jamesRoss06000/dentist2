@@ -1,9 +1,7 @@
 .footer {
-  position: fixed;
-  bottom: 0;
-  right: 38vw;
-  padding: 20px;
+  padding: 20px 20px 0px;
   color: rgb(100, 100, 100);
+  text-align: center;
 }
 
 a {
