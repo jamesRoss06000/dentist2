@@ -1,140 +1,131 @@
 <div class="d-flex options">
 
-  <div class="tooth" (click)='about()'>
-    <img src="../../assets/implant.png" alt="implant">
-    <h5>{{ "options.introduction" | translate }}</h5>
-  </div>
+    <div class="tooth" (click)='about()'>
+        <img src="../../assets/implant.png" alt="implant">
+        <h5>{{ "options.introduction" | translate }}</h5>
+    </div>
 
-  <div class="tooth" (click)='services()'>
-    <img src="../../assets/tooth-brush.png" alt="tooth-brush">
-    <h5 >{{ "options.services" | translate }}</h5>
+    <div class="tooth" (click)='services()'>
+        <img src="../../assets/tooth-brush.png" alt="tooth-brush">
+        <h5>{{ "options.services" | translate }}</h5>
 
-  </div>
+    </div>
 
-  <div class="tooth" (click)='contact()'>
-    <img src="../../assets/dental-care.png" alt="dental-care">
-    <h5>{{ "options.contact" | translate }}</h5>
-  </div>
+    <div class="tooth" (click)='contact()'>
+        <img src="../../assets/dental-care.png" alt="dental-care">
+        <h5>{{ "options.contact" | translate }}</h5>
+    </div>
 
-  <div class="tooth" (click)='map()'>
+    <button type='button' class="tooth" (click)='map()'>
     <img src="../../assets/toothpaste.png" alt="toothpaste">
     <h5>{{ "options.map" | translate }}</h5>
-  </div>
+  </button>
 
-  <!-- About Data -->
-  <div class="backdrop" *ngIf="aboutData"></div>
-  <div class="alert-box" *ngIf="aboutData">
-    <img class='photoIvan'
-      src="https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/l2rd5xakeo0jiu4dywyi.jpg"
-      alt="Chirurgien-dentiste">
-    <h5>{{ 'presentation.header' | translate}}</h5>
-    <p>{{ 'presentation.p1' | translate}}</p>
-    <p>{{ 'presentation.p2' | translate}}</p>
-    <p>{{ 'presentation.p3' | translate}}</p>
-    <p>{{ 'presentation.p4' | translate}}</p>
-    <p>{{ 'presentation.p5' | translate}}</p>
-    <p>{{ 'presentation.p5' | translate}}</p> <div class="alert-box-actions">
-      <button class='btn btn-secondary'
-        style='width: 80%;'
-        (click)="gotoDoctolib()">
+    <!-- About Data -->
+    <div class="backdrop" *ngIf="aboutData"></div>
+    <div class="alert-box" *ngIf="aboutData">
+        <img class='photoIvan' src="https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/l2rd5xakeo0jiu4dywyi.jpg" alt="Chirurgien-dentiste">
+        <h5>{{ 'presentation.header' | translate}}</h5>
+        <p>{{ 'presentation.p1' | translate}}</p>
+        <p>{{ 'presentation.p2' | translate}}</p>
+        <p>{{ 'presentation.p3' | translate}}</p>
+        <p>{{ 'presentation.p4' | translate}}</p>
+        <p>{{ 'presentation.p5' | translate}}</p>
+        <p>{{ 'presentation.p5' | translate}}</p>
+        <div class="alert-box-actions">
+            <button class='btn btn-secondary docBtn' (click)="gotoDoctolib()">
         {{ 'contact.button' | translate }}</button>
-      <button class='btn btn-primary' style='width: 20%;' (click)='about()'>Close</button>
+            <button class='btn btn-primary closeBtn' (click)='about()'>Close</button>
+        </div>
     </div>
-  </div>
 
 </div>
 <!-- Services Data -->
 <div class="backdrop" *ngIf="serviceText"></div>
 <div class="alert-box" *ngIf="serviceText">
 
-  <div class="d-flex responsiveColumn">
-    <div class="width50">
-      <h5>{{ 'services.header1' | translate }}</h5>
-      <p>{{ 'services.p1' | translate }}</p>
-      <p>{{ 'services.p2' | translate }}</p>
-      <p>{{ 'services.p3' | translate }}</p>
-      <p>{{ 'services.p4' | translate }}</p>
+    <div class="d-flex responsiveColumn">
+        <div class="width50">
+            <h5>{{ 'services.header1' | translate }}</h5>
+            <p>{{ 'services.p1' | translate }}</p>
+            <p>{{ 'services.p2' | translate }}</p>
+            <p>{{ 'services.p3' | translate }}</p>
+            <p>{{ 'services.p4' | translate }}</p>
+        </div>
+
+        <div class="width50">
+            <h5>{{ 'services.header2' | translate }}</h5>
+            <p>{{ 'services.p5' | translate }}</p>
+            <p>{{ 'services.p6' | translate }}</p>
+            <p>{{ 'services.p7' | translate }}</p>
+            <p>{{ 'services.p8' | translate }}</p>
+
+            <h5>{{ 'services.header3' | translate }}</h5>
+            <p>{{ 'services.p9' | translate }}</p>
+        </div>
     </div>
 
-    <div class="width50">
-      <h5>{{ 'services.header2' | translate }}</h5>
-      <p>{{ 'services.p5' | translate }}</p>
-      <p>{{ 'services.p6' | translate }}</p>
-      <p>{{ 'services.p7' | translate }}</p>
-      <p>{{ 'services.p8' | translate }}</p>
-
-      <h5>{{ 'services.header3' | translate }}</h5>
-      <p>{{ 'services.p9' | translate }}</p>
-    </div>
-  </div>
-
-  <div class="alert-box-actions">
-    <button class='btn btn-secondary'
-      style='width: 80%;'
-      (click)="gotoDoctolib()">
+    <div class="alert-box-actions">
+        <button class='btn btn-secondary docBtn' (click)="gotoDoctolib()">
       {{ 'contact.button' | translate }}</button>
-    <button class='btn btn-primary' style='width: 20%;' (click)='services()'>Close</button>
-  </div>
+        <button class='btn btn-primary closeBtn' (click)='services()'>Close</button>
+    </div>
 </div>
 
 <!-- Contact Data -->
 <div class="backdrop" *ngIf="contactData"></div>
 <div class="alert-box" *ngIf="contactData">
 
-  <div class="d-flex responsiveColumn">
-    <div class="width50">
-      <h5>{{ 'contact.header1' | translate }}</h5>
-      <p>{{ 'contact.p1' | translate }}</p>
-      <h5>{{ 'contact.header7' | translate }}</h5>
-      <p>{{ 'contact.p11' | translate }}</p>
-      <p>{{ 'contact.p12' | translate }}</p>
+    <div class="d-flex responsiveColumn">
+        <div class="width50">
+            <h5>{{ 'contact.header1' | translate }}</h5>
+            <p>{{ 'contact.p1' | translate }}</p>
+            <h5>{{ 'contact.header7' | translate }}</h5>
+            <p>{{ 'contact.p11' | translate }}</p>
+            <p>{{ 'contact.p12' | translate }}</p>
+        </div>
+        <div class="width50">
+            <h5>{{ 'contact.header2' | translate }}</h5>
+            <p>{{ 'contact.p3' | translate }}</p>
+            <p>{{ 'contact.p4' | translate }}</p>
+            <h5>{{ 'contact.header8' | translate }}</h5>
+            <p>{{ 'contact.p13' | translate }}</p>
+        </div>
     </div>
-    <div class="width50">
-      <h5>{{ 'contact.header2' | translate }}</h5>
-      <p>{{ 'contact.p3' | translate }}</p>
-      <p>{{ 'contact.p4' | translate }}</p>
-      <h5>{{ 'contact.header8' | translate }}</h5>
-      <p>{{ 'contact.p13' | translate }}</p>
-    </div>
-  </div>
 
-  <div class="alert-box-actions">
-    <button class='btn btn-secondary'
-      style='width: 80%;'
-      (click)="gotoDoctolib()">
+    <div class="alert-box-actions">
+        <button class='btn btn-secondary docBtn' (click)="gotoDoctolib()">
       {{ 'contact.button' | translate }}</button>
-    <button class='btn btn-primary' style='width: 20%;' (click)='contact()'>Close</button>
-  </div>
+        <button class='btn btn-primary closeBtn' (click)='contact()'>Close</button>
+    </div>
 </div>
 
 <!-- Map Data -->
 <div class="backdrop" *ngIf="mapData"></div>
 <div class="alert-box" *ngIf="mapData">
-  <h5>{{ 'contact.header3' | translate }}</h5>
-  <app-map></app-map>
-  <br>
-  <div class="d-flex responsiveColumn">
-    <div class='width50'>
-      <h5>{{ 'contact.header4' | translate }}</h5>
-      <p>{{ 'contact.p5' | translate }}</p>
-      <p>{{ 'contact.p6' | translate }}</p>
-      <p>{{ 'contact.p7' | translate }}</p>
+    <h5>{{ 'contact.header3' | translate }}</h5>
+    <app-map></app-map>
+    <br>
+    <div class="d-flex responsiveColumn">
+        <div class='width50'>
+            <h5>{{ 'contact.header4' | translate }}</h5>
+            <p>{{ 'contact.p5' | translate }}</p>
+            <p>{{ 'contact.p6' | translate }}</p>
+            <p>{{ 'contact.p7' | translate }}</p>
+        </div>
+
+        <div class='width50'>
+            <h5>{{ 'contact.header5' | translate }}</h5>
+            <p>{{ 'contact.p8' | translate }}</p>
+            <h5>{{ 'contact.header6' | translate }}</h5>
+            <p>{{ 'contact.p9' | translate }}</p>
+            <p>{{ 'contact.p10' | translate }}</p>
+        </div>
     </div>
 
-    <div class='width50'>
-      <h5>{{ 'contact.header5' | translate }}</h5>
-      <p>{{ 'contact.p8' | translate }}</p>
-      <h5>{{ 'contact.header6' | translate }}</h5>
-      <p>{{ 'contact.p9' | translate }}</p>
-      <p>{{ 'contact.p10' | translate }}</p>
-    </div>
-  </div>
-
-  <div class="alert-box-actions">
-    <button class='btn btn-secondary'
-      style='width: 80%;'
-      (click)="gotoDoctolib()">
+    <div class="alert-box-actions">
+        <button class='btn btn-secondary docBtn' (click)="gotoDoctolib()">
       {{ 'contact.button' | translate }}</button>
-    <button class='btn btn-primary' style='width: 20%;' (click)='map()'>Close</button>
-  </div>
+        <button class='btn btn-primary closeBtn' (click)='map()'>Close</button>
+    </div>
 </div>
